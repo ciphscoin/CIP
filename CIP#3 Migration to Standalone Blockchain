@@ -64,6 +64,8 @@ As we mention before the block reward for CIPHS is 12 second per block. These me
 #### 2.3.2 Linear Block Reward
 Block reward for Miner are set by protocol to be in linear growth with peak and linear decreasing to the final stage where we call it as Tail Emession Phase. These tail emission phase will steadily reward loyal Miner with endless reward. The amount of reward are define as below chart for the sake of simplicity.
 
+https://github.com/ciphscoin/CIP/blob/green/blockreward.png?raw=true
+
 ### 2.4 Trustless & Private Network
 Within CPN, you may want to send transaction without reveal your data to the public, which is known as Private transaction. We use ZCash implemention as protocol for privacy centric transfer, these wrap all details with highly encrypted data that only can be reveal by its owner itself using the Private Key. Within blockchain ecosystem there is glamour terms related to private key such as "Not your Key, not your Coin". So we can,t stress you enought to secured private key for every wallet you own in safely manners. Dont ever share it to others via social media or uncrypted storage. The best way it to copy on Notepad and save it to USB Disk (Make sure the USB is in good condition), these will create an offline backup for you.
 
