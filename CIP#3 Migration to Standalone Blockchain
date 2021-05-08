@@ -21,80 +21,161 @@
 5. The Neverending Tail Phase
 
 ## Introduction
-The whole proposal is to create a private protocol network with decentralize system for Ciphscoin. These document are to brief Decentralize by means of all terms including coin distribution, protocol consensus, network scaling and trustless system within 1 healthy ecosystem. In enable to build this, CIPHS will need to be hardfork to CIP#3. As for proposal, we humbly present Ciphscoin Protocol Network (CPN).
+The whole proposal is to create a private protocol network with decentralize system for Ciphscoin. These document are to brief Decentralize by means of all terms including 
+coin distribution, protocol consensus, network scaling and trustless system within 1 healthy ecosystem. In enable to build this, CIPHS will need to be hardfork to CIP#3. 
+As for proposal, we humbly present Ciphscoin Protocol Network (CPN).
 
 ## 2. Ciphs Protocol Network (CPN)
-CPN are run by multiple computer connecting to each other which build a ecosystem called as Network. Within CPN (N represent Network) there is no rules other than network protocol which operated by agreement of all computers having same copy of public ledgers viewable by anyone for ownership that can be declare digitally. These protocol-centric public ledger are only can be written by agreement of anyone who use their compute power to compete on solving cryptographic puzzle within the network and get reward. These fully encrypted puzzle are to wrap the private details of Transferring which use a Coin to represent their holding value. These provide us a virtual network to transfer value with highly secure manners. We tried the best to describe blockchain system to simplicity within this document, while the back end of CPN are a solid framework of code that connected to create a transparent, private, secure and trustless network for cryptocurrency named as Ciphscoin.
+CPN are run by multiple computer connecting to each other which build a ecosystem called as Network. 
+Within CPN (N represent Network) there is no rules other than network protocol which operated by agreement of all computers having same copy of public ledgers viewable by 
+anyone for ownership that can be declare digitally. These protocol-centric public ledger are only can be written by agreement of anyone who use their compute power 
+to compete on solving cryptographic puzzle within the network and get reward. These fully encrypted puzzle are to wrap the private details of Transferring which use a Coin 
+to represent their holding value. These provide us a virtual network to transfer value with highly secure manners. We tried the best to describe blockchain system to simplicity 
+within this document, while the back end of CPN are a solid framework of code that connected to create a transparent, private, secure and trustless network for cryptocurrency 
+named as Ciphscoin.
 
-In able to build Ciphscoin, these involve not naturally public terms such as UTXO. Internet is open wide to search for such terms. For Developers, you may read full nerdy documentation using this link ---> https://ciphscoin.github.io. The symbol of Ciphscoin is 'CIPHS', which represent the whole network as dominated currency within CPN. CIPHS are simply define as a Decentralize Cryptocurrency.
+In able to build Ciphscoin, these involve not naturally public terms such as UTXO. Internet is open wide to search for such terms. 
+For Developers, you may read full nerdy documentation using this link ---> https://ciphscoin.github.io. 
+The symbol of Ciphscoin is 'CIPHS', which represent the whole network as dominated currency within CPN. CIPHS are simply define as a Decentralize Cryptocurrency.
 
 ### 2.1 Task Distribution
-CPN public ledger actually worked as a block of chaining to other block that come before and after their creation. Means CPN database contain transaction from block 0 to the last transaction which known as Blockchain. These blockchain data contains all transfer has been made within CPN using CIPHS at that particular time (12 second per block). But who maintained and assured us that no other parties can ever change the data within CPN blockchain? 
+CPN public ledger actually worked as a block of chaining to other block that come before and after their creation. 
+Means CPN database contain transaction from block 0 to the last transaction which known as Blockchain. These blockchain data contains all transfer has been made within CPN 
+using CIPHS at that particular time (12 second per block). But who maintained and assured us that no other parties can ever change the data within CPN blockchain? 
 
-The immutability of CPN blockchain are maintain by people whose allocate their compute power to secured the public ledger from be written by external parties other than as describe by protocol of CPN blockchain. There is 2 type of compute power. Nodes & Miner.
+The immutability of CPN blockchain are maintain by people whose allocate their compute power to secured the public ledger from be written by external parties other than 
+as describe by protocol of CPN blockchain. There is 2 type of compute power. Nodes & Miner.
 
 #### 2.1.1 Nodes
-Nodes are the people who stored whole database of CPN blockchain (public ledger). The benefit of running a notary of CPN is to use self remote connection to connect with wallet and other service on CPN features. These will improve security if you running an exchange, or wallet server as you are your own provider to access the CPN blockchain.
+Nodes are the people who stored whole database of CPN blockchain (public ledger). The benefit of running a notary of CPN is to use self remote connection to connect with 
+wallet and other service on CPN features. These will improve security if you running an exchange, or wallet server as you are your own provider to access the CPN blockchain.
 
 #### 2.1.2 Miner
-Don't let your PC idle, use it for Ciphscoin Mining. Miners use their computing power to maintain the credibility of CPN blockchain. Miners will compete to each other in solving block puzzle (encryption algorithm) and are provided by the CPN protocol with reward for solving each block, these are called 'Proof-of-Work' while reward are namely as 'Block Reward'. The volume of coin from the block reward are provided to Miners as what CPN protocol were coded and agreed by all Miner within CPN. These create a transparent and immutability public ledger blockchain for everyone to utilize CIPHS.
+Don't let your PC idle, use it for Ciphscoin Mining. Miners use their computing power to maintain the credibility of CPN blockchain. Miners will compete to each other in 
+solving block puzzle (encryption algorithm) and are provided by the CPN protocol with reward for solving each block, these are called 'Proof-of-Work' while reward are 
+namely as 'Block Reward'. The volume of coin from the block reward are provided to Miners as what CPN protocol were coded and agreed by all Miner within CPN. 
+These create a transparent and immutability public ledger blockchain for everyone to utilize CIPHS.
 
 #### 2.1.3 Mining (CPU)
-Technically it is fairly easy for anyone to join the mining process and get involve in hardening the security of CIPHS blockchain and CPN. One can use their CPU or GPU to start mining process. Your computer will be reward according to hashrate provided. Hash is the data CPU produce in terms of solving CIPHS block. Typically hash are measure in second. For instance with Ryzen 3 3100 prcessor can yield us about 1000hash/sec or 1kh/sec. Detail about Block reward are explained further below.
+Technically it is fairly easy for anyone to join the mining process and get involve in hardening the security of CIPHS blockchain and CPN. One can use their CPU or GPU to
+start mining process. Your computer will be reward according to hashrate provided. Hash is the data CPU produce in terms of solving CIPHS block. Typically hash are 
+measure in second. For instance with Ryzen 3 3100 prcessor can yield us about 1000hash/sec or 1kh/sec. Detail about Block reward are explained further below.
 
 ### 2.2 CPN PROTOCOL & CONSENSUS
-In thhis part we describe the underlying part of CIPHS Protocol within CPN itself. By common means 'Protocol' are rules and regulations that any parties involves need to abide with. While in decentralize blockchain the terms protocol is quite similar to coneventional terms with additional added security. Protocol can be define as agreement of all parties which came to finality to give right to scaled trustless network to decide what is the right thing to do by limiting the task of one can do. To explain it further:
+In thhis part we describe the underlying part of CIPHS Protocol within CPN itself. By common means 'Protocol' are rules and regulations that any parties involves need
+to abide with. While in decentralize blockchain the terms protocol is quite similar to coneventional terms with additional added security. Protocol can be define as 
+agreement of all parties which came to finality to give right to scaled trustless network to decide what is the right thing to do by limiting the task of one can do. 
+To explain it further:
 
-Miner are opted to be rewarded by CPN if all Node and Miner are satisfy. If they were not satisfy, the block processed by these Miners are rejected as false block. Thus this will prevent any abuse from Miner injecting false TX. While Node need to sync to the blockchain 24/7/365 non-stop, keeping it align with other Nodes. If 1 node was detected using modified blockchain, majority within the network will automatically ignore the node. While abused attempt such as double spending, will be prevent by network due to the nature Ciphscoin blockchain Unspend Transaction Output - 'UTXO' which only reward the winner among Miner (of that particular block) with rights to fill the data to CPN blockchain.
+Miner are opted to be rewarded by CPN if all Node and Miner are satisfy. If they were not satisfy, the block processed by these Miners are rejected as false block. 
+Thus this will prevent any abuse from Miner injecting false TX. While Node need to sync to the blockchain 24/7/365 non-stop, keeping it align with other Nodes. 
+If 1 node was detected using modified blockchain, majority within the network will automatically ignore the node. While abused attempt such as double spending, 
+will be prevent by network due to the nature Ciphscoin blockchain Unspend Transaction Output - 'UTXO' which only reward the winner among Miner (of that particular block) 
+with rights to fill the data to CPN blockchain.
 
 Everyone within the network have build a trustless Consensus. Where we have achieve agreement and constantly build better economy environment with proof, for everyone.
 
 #### 2.2.1 Proof-of-Work
-Miner are opted to submit proof to CIPHS Blockchain, in order for the Miner to get rewarded. Miner need to prove the encrypted transactions are indeed from the owner spend key itself, amount of transfer with balance to return back to owner due to nature of UTXO, Unspent Transaction Output (We will not explain UTXO briefly here, hit the net for more info). Within proof-of-work protocol there is difficulty level which scaled with hashrate of all Miner for every 12 sec. These difficulty prevent from any Miners from spamming CPN by using their compute power with attention to dominate the network and attempt an attack with false tx. For the security, we build the CPN blockchain with linear halving of block reward. These will improve further security of the blockchain as Miners are steadily rewarded with consistent amount of block reward as they working on CPN.
+Miner are opted to submit proof to CIPHS Blockchain, in order for the Miner to get rewarded. Miner need to prove the encrypted transactions are indeed from the 
+owner spend key itself, amount of transfer with balance to return back to owner due to nature of UTXO, Unspent Transaction Output (We will not explain UTXO briefly here,
+hit the net for more info). Within proof-of-work protocol there is difficulty level which scaled with hashrate of all Miner for every 12 sec. These difficulty prevent from 
+any Miners from spamming CPN by using their compute power with attention to dominate the network and attempt an attack with false tx. For the security, 
+we build CPN blockchain with linear halving of block reward. These will improve further security of the blockchain as Miners are steadily rewarded with consistent amount 
+of block reward as they working on CPN.
 
 #### 2.2.2 Nodes & RPC
-Within decentralize blockchain, running full node is important as these keep the network alive. 1 can utilize all the benefits within CPN by using a simple RPC connection, these are prevention from cybercipher attack. RPC simplify the complicated part of integrations to other coding language. Building dApps and framework for any project will required to call for CPN Remote Control. RPC-cli are provided for proper integrations and personal use. 
+Within decentralize blockchain, running full node is important as these keep the network alive. 1 can utilize all the benefits within CPN by using a simple RPC connection,
+these are prevention from cybercipher attack. RPC simplify the complicated part of integrations to other coding language. Building dApps and framework for any project will 
+required to call for CPN Remote Control. RPC-cli are provided for proper integrations and personal use. 
 
 ### 2.3 Network Scaling
-As CPN blockchain grow to size, with more activity has been perform on the blockchain. Network will need to scale in order to provide an endless service on growing activity. Miner with huge HashPower may attempt to abuse the system by leaving the network in time of peek activity, thus decrease the hash power for CPN to work properly. Where tx can be stale due to sudden decreasal of hashpower. We prevent these with protocol known as Adaptive POW. Where the difficulty of current blockheigh will be recalculate on every 12 second according to Miner hashrate combine. Regardless of Pool Mining or Solo. CPN will always try to scale hashrate and blockchain to suited activity of the blockchain.
+As CPN blockchain grow to size, with more activity has been perform on the blockchain. Network will need to scale in order to provide an endless service on growing activity.
+Miner with huge HashPower may attempt to abuse the system by leaving the network in time of peek activity, thus decrease the hash power for CPN to work properly. 
+Where tx can be stale due to sudden decreasal of hashpower. We prevent these with protocol known as Adaptive POW. Where the difficulty of current blockheigh will be 
+recalculate on every 12 second according to Miner hashrate combine. Regardless of Pool Mining or Solo. CPN will always try to scale hashrate and blockchain to suited 
+activity of the blockchain.
 
 #### 2.3.1 Fast Transaction
-As we mention before the block reward for CIPHS is 12 second per block. These mean for every 1 minutes Miner need to send 5 block as proof. Within a block will be 1MB of data of transaction to be build on top of blockchain. Within 1mb of data, it can be a single transaction or even 100 depends on UTXO size. These sizes are refer in bits. Which is handle by Miners resulted in number in hash code to the block. CPN process these block for every 12 second of transaction.
+As we mention before the block reward for CIPHS is 12 second per block. These mean for every 1 minutes Miner need to send 5 block as proof.
+Within a block will be 1MB of data of transaction to be build on top of blockchain. Within 1mb of data, it can be a single transaction or even 100 depends on UTXO size. 
+These sizes are refer in bits. Which is handle by Miners resulted in number in hash code to the block. CPN process these block for every 12 second of transaction.
 
 #### 2.3.2 Linear Block Reward
-Block reward for Miner are set by protocol to be in linear growth with peak and linear decreasing to the final stage where we call it as Tail Emession Phase. These tail emission phase will steadily reward loyal Miner with endless reward. The amount of reward are define as below chart for the sake of simplicity.
+Block reward for Miner are set by protocol to be in linear growth with peak and linear decreasing to the final stage where we call it as Tail Emession Phase.
+These tail emission phase will steadily reward loyal Miner with endless reward. The amount of reward are define as below chart for the sake of simplicity.
 
 https://github.com/ciphscoin/CIP/blob/green/blockreward.png?raw=true
 
 ### 2.4 Trustless & Private Network
-Within CPN, you may want to send transaction without reveal your data to the public, which is known as Private transaction. We use ZCash implemention as protocol for privacy centric transfer, these wrap all details with highly encrypted data that only can be reveal by its owner itself using the Private Key. Within blockchain ecosystem there is glamour terms related to private key such as "Not your Key, not your Coin". So we can,t stress you enought to secured private key for every wallet you own in safely manners. Dont ever share it to others via social media or uncrypted storage. The best way it to copy on Notepad and save it to USB Disk (Make sure the USB is in good condition), these will create an offline backup for you.
+Within CPN, you may want to send transaction without reveal your data to the public, which is known as Private transaction. We use ZCash implemention as protocol for 
+privacy centric transfer, these wrap all details with highly encrypted data that only can be reveal by its owner itself using the Private Key. 
+Within blockchain ecosystem there is glamour terms related to private key such as "Not your Key, not your Coin". So we can,t stress you enought to secured private key 
+for every wallet you own in safely manners. Dont ever share it to others via social media or uncrypted storage. The best way it to copy on Notepad 
+and save it to USB Disk (Make sure the USB is in good condition), these will create an offline backup for you.
 
 CPN is a Trustless Financial Sytem that works for nobody other than protocol agreeable by everyone. Trust no one other than yourself with your Private Key.
 Ciphscoin distribution are Decentralize, Nodes are Decentralize, Miner are Decentralize and whole User are Decentralize. CPN are decentralized financial system by nature. 
 
 #### 2.4.1 Decentralize Exchange
-Trustless give CPN benefit for decentralize exchange where no intermediate 3rd party need to be trust in order to trade values. CPN purely p2p based transaction that agreed by both parties, there is protocol build for dispute purpose where no coin will be release if no trade ever happen. Meaning the value is only return to wallet owner unless there is succesful trade. These are build by utilising blockchain transaction which is available anytime to be use by the CPN intergration to any propabality possible.
+Trustless give CPN benefit for decentralize exchange where no intermediate 3rd party need to be trust in order to trade values. CPN purely p2p based transaction that 
+agreed by both parties, there is protocol build for dispute purpose where no coin will be release if no trade ever happen. Meaning the value is only return to wallet 
+owner unless there is succesful trade. These are build by utilising blockchain transaction which is available anytime to be use by the CPN intergration to any 
+propabality possible.
 
 #### 2.4.2 Stable Currency Token
-It just the nature of Cryptocurrency to be volatile in market. This is due to the digit itself has a rounding that need to be complete by each system. CIPHS using 8 decimal, which is 1.00000000 for 1 whole CIPHS. While most of fiat we use daily are only 2 decimals. We figure out the best solution is to not use stable currency which is depends to a Country stability. Which is not the best way to create stable coin. War has caused tremendous lost of live, but not limited to it. These include financial and currency value where the currency has been devalued even to be accepted by neighbouring country. These happened in our life today, for real. Evertheless, we never support war and geopolitic issue within any country. As the world is for all human with so many colors (cool!), we create Ciphscoin with trustless protocol network and fully backed by Community. A World Community that represent a better way of Life in terms of financial system. While Stable Currency will be build within CIPHS as a Token that can be actively traded on DEX for any purpose. The plan is to use Gold(GDC) as a stable token, where GDC can be utilize as stable currency pegged to Ciphscoin. GDC ratio of unit/gram 1:1 which means 1 GDC is 1 gram of gold value.  
+It just the nature of Cryptocurrency to be volatile in market. This is due to the digit itself has a rounding that need to be complete by each system. CIPHS using 8 decimal,
+which is 1.00000000 for 1 whole CIPHS. While most of fiat we use daily are only 2 decimals. We figure out the best solution is to not use stable currency which is depends
+to a Country stability. Which is not the best way to create stable coin. War has caused tremendous lost of live, but not limited to it. These include financial and currency 
+value where the currency has been devalued even to be accepted by neighbouring country. These happened in our life today, for real. Evertheless, we never support war and 
+geopolitic issue within any country. As the world is for all human with so many colors (cool!), we create Ciphscoin with trustless protocol network and fully backed by 
+Community. A World Community that represent a better way of Life in terms of financial system. While Stable Currency will be build within CIPHS as a Token that can be actively 
+traded on DEX for any purpose. The plan is to use Gold(GDC) as a stable token, where GDC can be utilize as stable currency pegged to Ciphscoin. GDC ratio of unit/gram 1:1 
+which means 1 GDC is 1 gram of gold value.  
 
 #### 2.4.3 Asset based Token and Development
-CPN are based for builders. CPN are utilized by Entrepreneur everywhere to represent Assets that has been digitalized and transferable to anywhere in decentralize manners. These method are usually terms as 'ICO' stand for Initial Coin Offering. These assets then will be purchase back by Entrepreneur with higher prices using the profit comes from external source, these give opportunity for Entrepreneur to kickstart their project. Project with successful background and commit to their vision are usually words to words and become a trusted project within CIPHS Private Network. There is much more ability in terms of utilizing Token for yourself, business, demand and opportunity. Literally it can represent anything in terms of Value. 1 can distribute whole huge 100 acres land to 10 billion token to be distribute to everyone, then he develop the land that invites potential investor, these kickstart the project while funding the land owner to develop the land which open up opportunity to everyone in decentralize manner. What else? Typically Token can be represent as in-business currency too, are valued within Client and Business. These build connection for long term relationship with client.
+CPN are based for builders. CPN are utilized by Entrepreneur everywhere to represent Assets that has been digitalized and transferable to anywhere in decentralize manners. 
+These method are usually terms as 'ICO' stand for Initial Coin Offering. These assets then will be purchase back by Entrepreneur with higher prices using the profit comes from 
+external source, these give opportunity for Entrepreneur to kickstart their project. Project with successful background and commit to their vision are usually words to words
+and become a trusted project within CIPHS Private Network. There is much more ability in terms of utilizing Token for yourself, business, demand and opportunity. Literally 
+it can represent anything in terms of Value. 1 can distribute whole huge 100 acres land to 10 billion token to be distribute to everyone, then he develop the land that invites 
+potential investor, these kickstart the project while funding the land owner to develop the land which open up opportunity to everyone in decentralize manner. 
+What else? Typically Token can be represent as in-business currency too, are valued within Client and Business. These build connection for long term relationship with client.
 
 ## 3. Security & Scam Prevention
-As it widely spread on blockchain typically many scam attempt has been succefull. Forget hackers for awhile, lets talk about average joe who build a ponzi scheme to take benefit for entry fees and partially award other long account holder. This will cause domination in financial system which is literally bad for User. So CPN are build to prevent this spam directly within the code protocol. Some of feautres of Antara Framework has been disabled due to prevention of abuse purpose. We have disable 230 & 233 as in ac documentation(https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/advanced-series-2.html#the-eval-code), which mainly use for gambling, money laundering and promosing future. However this prevention cannot block individual who opted into any of the scheme intendedly. Gambling are developed (it's decentralize remember) without any facilitate by CPN as prevention for Money Laundering. We don't believe in free money unless it's were meant for donation/gift, that would make sense. 
+As it widely spread on blockchain typically many scam attempt has been succefull. Forget hackers for awhile, lets talk about average joe who build a ponzi scheme to take 
+benefit for entry fees and partially award other long account holder. This will cause domination in financial system which is literally bad for User. So CPN are build to 
+prevent this spam directly within the code protocol. Some of feautres of Antara Framework has been disabled due to prevention of abuse purpose. 
+We have disable 230 & 233 as in ac documentation(https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/advanced-series-2.html#the-eval-code), 
+which mainly use for gambling, money laundering and promosing future. However this prevention cannot block individual who opted into any of the scheme intendedly. 
+Gambling are developed (it's decentralize remember) without any facilitate by CPN as prevention for Money Laundering. 
+We don't believe in free money unless it's were meant for donation/gift, that would make sense. 
 
 ## 4. HardFork CIP#2 to CIP#3
 TL;DR As per original Ciphs.org whitepaper (https://github.com/ciphs/cryptocurrency/blob/master/README.proposal.md)
 
-~ 1 million CIPHS(formerly CIPHS erc20/xCIPHS xDai) will be reserve as for development of CIPHS dev foundation - these portion is part of miners reward now since consensus has been established with CPN blockchain.
+~ 1 million CIPHS(formerly CIPHS erc20/xCIPHS xDai) will be reserve as for development of CIPHS dev foundation - these portion is part of miners reward 
+now since consensus has been established with CPN blockchain.
 
-~ 1 million reserve for Bounty Programme. - These portion will be reward for main notary (nodes) prior to Hardfork CIP#3. 100,000CIPHS are reserved for 10 Node that has been serving CPN with 99% uptime in 24 hours for a year. This reward are 1 time offer as we have no control on Ciphscoin supply. Own a server with public port forwarding? Start serving CPN node. We will use data from RPC for analytics, node owner may submit a pull request and submit public ip:port for 100k CIPHS reward. Day count start from the date of successful pull request on repo here ---> https://github.com/ciphscoin/notaryrewards#readme
+~ 1 million reserve for Bounty Programme. - These portion will be reward for main notary (nodes) prior to Hardfork CIP#3. 100,000CIPHS are reserved 
+for 10 Node that has been serving CPN with 99% uptime in 24 hours for a year. This reward are 1 time offer as we have no control on Ciphscoin supply. 
+Own a server with public port forwarding? Start serving CPN node. We will use data from RPC for analytics, node owner may submit a pull request and 
+submit public ip:port for 100k CIPHS reward. Day count start from the date of successful pull request on repo here ---> https://github.com/ciphscoin/notaryrewards#readme
 
-~ 5 million are liquidated to kickstart CIPHS trading on DEX - these are sold CIPHS token (erc20/xdai). To solve this, as softfork(CIP2) has successfuly initiated. It is fair for us to say that we have abandoned erc20 based token and only accepting xdai version of CIPHS token, with the symbol xCIPHS to be redeemable on CPN. Prior to CIP2 to CIP3. Any xCIPHS holder can redeem Ciphscoin (CIPHS) on CPN by using @ciphsbot on Telegram for 3 years terms starting from initial commit of CIP3. Unclaimed coin will be liquidate into Dex. Full guide of xCiphs holder to CIP3 hardfork, please refer Ciphs.org repo here ---> https://github.com/ciphs/hardforkcip3 
+~ 5 million are liquidated to kickstart CIPHS trading on DEX - these are sold CIPHS token (erc20/xdai). To solve this, as softfork(CIP2) has successfuly initiated. 
+It is fair for us to say that we have abandoned erc20 based token and only accepting xdai version of CIPHS token, with the symbol xCIPHS to be redeemable on CPN. 
+Prior to CIP2 to CIP3. Any xCIPHS holder can redeem Ciphscoin (CIPHS) on CPN by using @ciphsbot on Telegram for 3 years terms starting from initial commit of CIP3.
+Unclaimed coin will be liquidate into Dex. Full guide of xCiphs holder to CIP3 hardfork, please refer Ciphs.org repo here ---> https://github.com/ciphs/hardforkcip3 
 
 ## 5. The Neverending Tail Phase
-For the purpose of closing CIP#3 Proposal. We would like to invite everyone using CPU to Mining Ciphs or open full node services to CPN. These are to ensure CPN from vulneribility to 51% attack. To resist these attack, CIPHS need to widely mining by everyone and get decentralize in short time, these will achieve greater power than attacker hashrate. Which cost tremendous amount of hardware and time to attempt such attack. 51% attack is very common in POW blockchain, even to Cryptocurrency project ever exist. These are not about the protocol, the real cause are from abused of hashpower within the world we all live. Technically it is really up to the community of CPN on how to deal with 51% attack. Don't even mention Proof-of-Stake which are dominated by the creator itself. As core dev to decentralize privacy centric financial system that aided the development with equality to public involvement, we think its our right to stay anon in able to build freely for the Trasnparent, Equality, Stability, Community & Merotcracy rewarding POW protocol network for CIPHS. As CIPHScoin are built with endless stable tail emission of 1 CIPHS per block for Miners, there will be stable reward for everyone who contribute to CPN and to the future we never end. Have it CIPHS way, a Tiny Sparrow fly throught the air, it's Freedom.
+For the purpose of closing CIP#3 Proposal. We would like to invite everyone using CPU to Mining Ciphs or open full node services to CPN. These are to ensure CPN from 
+vulneribility to 51% attack. To resist these attack, CIPHS need to widely mining by everyone and get decentralize in short time, these will achieve greater power than 
+attacker hashrate. Which cost tremendous amount of hardware and time to attempt such attack. 51% attack is very common in POW blockchain, even to Cryptocurrency project
+ever exist. These are not about the protocol, the real cause are from abused of hashpower within the world we all live. Technically it is really up to the community of 
+CPN on how to deal with 51% attack. Don't even mention Proof-of-Stake which are dominated by the creator itself. As core dev to decentralize privacy centric financial 
+system that aided the development with equality to public involvement, we think its our right to stay anon in able to build freely for the 
+Transparent, Equality, Stability, Community & Merotcracy rewarding POW protocol network for CIPHS. As CIPHScoin are built with endless stable tail emission of 
+1 CIPHS per block for Miners, there will be stable reward for everyone who contribute to CPN and to the future we never end. 
+Have it CIPHS way, a Tiny Sparrow fly throught the air, it's Freedom.
 
 # Feel free to run node or mining by launching Ciphscoin Protocol Network. Follow this simple guide here - https://github.com/ciphscoin/cpn
 
