@@ -25,6 +25,13 @@ The whole proposal is to create a private protocol network with decentralize sys
 coin distribution, protocol consensus, network scaling and trustless system within 1 healthy ecosystem. In enable to build this, CIPHS will need to be hardfork to CIP#3. 
 As for proposal, we humbly present Ciphscoin Protocol Network (CPN).
 
+Coin Name: Ciphscoin 
+Ticker: CIPHS 
+Decimal: 8 
+Distribution: 100% PoW (CPU/GPU Mining) 
+Max Supply: 27 million + tail emission 
+Premine: 7 Million from xCIPHS
+
 ## 2. Ciphs Protocol Network (CPN)
 CPN are run by multiple computer connecting to each other which build a ecosystem called as Network. 
 Within CPN (N represent Network) there is no rules other than network protocol which operated by agreement of all computers having same copy of public ledgers viewable by 
