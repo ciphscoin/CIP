@@ -29,8 +29,8 @@ Coin Name: Ciphscoin
 Ticker: CIPHS 
 Decimal: 8 
 Distribution: 100% PoW (CPU/GPU Mining) 
-Max Supply: 27 million + tail emission 
-Premine: 7 Million from xCIPHS
+Max Supply: 26 million + tail emission 
+Premine: 6 Million from xCIPHS
 
 ## 2. Ciphs Protocol Network (CPN)
 CPN are run by multiple computer connecting to each other which build a ecosystem called as Network. 
@@ -111,7 +111,8 @@ These sizes are refer in bits. Which is handle by Miners resulted in number in h
 Block reward for Miner are set by protocol to be in linear growth with peak and linear decreasing to the final stage where we call it as Tail Emession Phase.
 These tail emission phase will steadily reward loyal Miner with endless reward. The amount of reward are define as below chart for the sake of simplicity.
 
-https://github.com/ciphscoin/CIP/blob/green/blockreward.png?raw=true
+https://github.com/ciphscoin/CIP/blob/green/blockreward.png?raw=true //not relevant as changes intime of mainnet launched due to 1 million xCIPHS allocated to build 
+DAO is not used, we think it is the best to return the volume to CPN. That's what we do. Only 6 million premine from xCIPHS hardfork, not 7 million as planned.
 
 ### 2.4 Trustless & Private Network
 Within CPN, you may want to send transaction without reveal your data to the public, which is known as Private transaction. We use ZCash implemention as protocol for 
@@ -160,8 +161,8 @@ We don't believe in free money unless it's were meant for donation/gift, that wo
 ## 4. HardFork CIP#2 to CIP#3
 TL;DR As per original Ciphs.org whitepaper (https://github.com/ciphs/cryptocurrency/blob/master/README.proposal.md)
 
-~ 1 million CIPHS(formerly CIPHS erc20/xCIPHS xDai) will be reserve as for development of CIPHS dev foundation - these portion is part of miners reward 
-now since consensus has been established with CPN blockchain.
+~ 1 million CIPHS(formerly CIPHS erc20/xCIPHS xDai) will be reserve as for development of CIPHS dev foundation - ***these portion is part of miners reward 
+now since consensus has been established with CPN blockchain. The portion has been returned to CPN system during mainnet launch.
 
 ~ 1 million reserve for Bounty Programme. - These portion will be reward for main notary (nodes) prior to Hardfork CIP#3. 100,000CIPHS are reserved 
 for 10 Node that has been serving CPN with 99% uptime in 24 hours for a year. This reward are 1 time offer as we have no control on Ciphscoin supply. 
@@ -180,7 +181,7 @@ attacker hashrate. Which cost tremendous amount of hardware and time to attempt 
 ever exist. These are not about the protocol, the real cause are from abused of hashpower within the world we all live. Technically it is really up to the community of 
 CPN on how to deal with 51% attack. Don't even mention Proof-of-Stake which are dominated by the creator itself. As core dev to decentralize privacy centric financial 
 system that aided the development with equality to public involvement, we think its our right to stay anon in able to build freely for the 
-Transparent, Equality, Stability, Community & Merotcracy rewarding POW protocol network for CIPHS. As CIPHScoin are built with endless stable tail emission of 
+Transparency, Equality, Stability, Community & Meritocracy POW protocol network for CIPHS. As CIPHScoin are built with endless stable tail emission of 
 1 CIPHS per block for Miners, there will be stable reward for everyone who contribute to CPN and to the future we never end. 
 Have it CIPHS way, a Tiny Sparrow fly throught the air, it's Freedom.
 
